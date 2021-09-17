@@ -29,8 +29,8 @@
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  background-color: var(--accent-color);
-  color: var(--third-text-color);
+  background-color: $accent-color;
+  color: $third-color;
 }
 
 .gallery {
@@ -38,19 +38,19 @@
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  margin-right: calc(-1 * var(--margin-card));
-  margin-bottom: calc(-1 * var(--margin-card));
+  margin-right: calc(-1 * 30px);
+  margin-bottom: calc(-1 * 30px);
 }
 
 .gallery__item {
-  flex-basis: calc(100% / 3 - var(--margin-card));
-  margin-right: var(--margin-card);
-  margin-bottom: var(--margin-card);
+  flex-basis: calc(100% / 3 - 30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .gallery__link {
   display: block;
-  color: var(--main-text-color);
+  color: $primary-color;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -75,7 +75,7 @@
   background-color: rgba(33, 150, 243, 0.9);
   font-size: 18px;
   line-height: calc(28 / 18);
-  color: var(--third-text-color);
+  color: $third-color;
   padding: 63px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -87,7 +87,7 @@
 
 .gallery__description {
   padding: 20px 24px;
-  background-color: var(--third-text-color);
+  background-color: $third-color;
   border-bottom: 1px solid #eee;
   border-right: 1px solid #eee;
   border-left: 1px solid #eee;
@@ -104,5 +104,5 @@
 .gallery__subtitle {
   font-size: 16px;
   line-height: calc(30 / 16);
-  color: var(--secondary-text-color);
+  color: $secondary-color;
 }

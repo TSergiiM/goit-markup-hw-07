@@ -29,13 +29,13 @@
 
 .client__link:hover,
 .client__link:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .client__link:hover > .client__icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .client__link:focus > .client__icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }

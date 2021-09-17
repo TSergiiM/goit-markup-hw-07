@@ -21,7 +21,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--third-text-color);
+  color: $third-color;
   max-width: 696px;
   margin: 0 auto 30px;
 }
@@ -35,8 +35,8 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--third-text-color);
-  background-color: var(--accent-color);
+  color: $third-color;
+  background-color: $accent-color;
   border: transparent;
   border-radius: 4px;
   cursor: pointer;

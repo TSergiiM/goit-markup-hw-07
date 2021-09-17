@@ -28,7 +28,7 @@
 .team__description {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: var(--third-text-color);
+  background-color: $third-color;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -39,7 +39,7 @@
 
 .team__text {
   font-weight: 400;
-  color: var(--secondary-text-color);
+  color: $secondary-color;
   margin-bottom: 16px;
 }
 
@@ -69,7 +69,7 @@
 
 .social__link:hover,
 .social__link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .social__icon {
   fill: currentColor;
@@ -77,8 +77,8 @@
 }
 
 .social__link:hover > .social__icon {
-  fill: var(--third-text-color);
+  fill: $third-color;
 }
 .social__link:focus > .social__iconl {
-  fill: var(--third-text-color);
+  fill: $third-color;
 }
