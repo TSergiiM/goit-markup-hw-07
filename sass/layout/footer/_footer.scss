@@ -1,0 +1,24 @@
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    color: $third-color;
+    margin-bottom: 20px;
+  }
+}
+
+.footer-conteiner {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo-adress {
+  flex-grow: 1;
+  margin-right: 70px;
+}

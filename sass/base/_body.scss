@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: $font-family;
   color: $primary-color;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter-spacing;
 }
