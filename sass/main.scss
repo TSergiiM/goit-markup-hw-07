@@ -1,9 +1,6 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
-@import './base/reset';
-@import './base/body';
-@import './base/container';
-@import './base/section';
+@import './base/module';
 @import './components/module';
 @import './layout/header/module';
 @import './layout/footer/module';

@@ -9,6 +9,12 @@
   clip: rect(0 0 0 0);
 }
 
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
+
 h1,
 h2,
 h3,
@@ -24,12 +30,6 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-body {
-  font-family: Roboto, sans-serif;
-  color: #212121;
-  letter-spacing: 0.03em;
 }
 
 .container {
