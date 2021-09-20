@@ -96,6 +96,14 @@ a {
   cursor: pointer;
 }
 
+.section__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+}
+
 .advantages {
   display: flex;
 }
@@ -118,7 +126,7 @@ a {
   color: #757575;
 }
 
-.advantages__icon {
+.advantages__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,19 +138,7 @@ a {
 }
 
 .development {
-  padding-top: 0;
-}
-
-.development__list {
   display: flex;
-}
-
-.development__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
 }
 
 .development__item {
@@ -153,7 +149,7 @@ a {
   margin-right: 30px;
 }
 
-.development__image {
+.development__box {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -165,7 +161,7 @@ a {
   height: 70px;
 }
 
-.development__subtitle {
+.development__title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16.41 / 14);
@@ -173,19 +169,15 @@ a {
   color: #fff;
 }
 
-.section-background {
+.section--padding {
+  padding-top: 0;
+}
+
+.section--background {
   background-color: #f5f4fa;
 }
 
-.team__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-}
-
-.team__list {
+.team {
   display: flex;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -201,14 +193,14 @@ a {
   margin-right: 30px;
 }
 
-.team__description {
+.team__box {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
 }
 
-.team__name {
+.team__title {
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -260,15 +252,7 @@ a {
   fill: #fff;
 }
 
-.client__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-}
-
-.client__list {
+.client {
   display: flex;
 }
 
@@ -633,7 +617,7 @@ a {
   background-color: #fff;
 }
 
-.header-conteiner {
+.header__conteiner {
   display: flex;
 }
 
@@ -678,11 +662,11 @@ a {
   color: #2196f3;
 }
 
-.active {
+.navigation__link--active {
   color: #2196f3;
 }
 
-.active::after {
+.navigation__link--active::after {
   position: absolute;
   content: '';
   display: block;
@@ -704,7 +688,7 @@ a {
   margin-bottom: 20px;
 }
 
-.footer-social-conteiner {
+.social-box {
   margin-right: 93px;
 }
 
@@ -737,7 +721,8 @@ a {
   color: #fff;
 }
 
-.adress__mail, .adress__tel {
+.adress__mail,
+.adress__tel {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -797,12 +782,12 @@ a {
   margin-bottom: 20px;
 }
 
-.footer-conteiner {
+.footer__conteiner {
   display: flex;
   align-items: baseline;
 }
 
-.footer-logo-adress {
+.logo-adress-box {
   flex-grow: 1;
   margin-right: 70px;
 }
